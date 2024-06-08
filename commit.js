@@ -41,9 +41,9 @@ async function makeCommits(startDate, endDate, minCommitsPerDay, maxCommitsPerDa
 
 // Define start and end dates, and the range for random commits per day
 const startDate = '2023-12-06'; // Change to your desired start date
-const endDate = '2023-12-15'; // Change to your desired end date
+const endDate = '2024-12-15'; // Change to your desired end date
 const minCommitsPerDay = 1; // Minimum commits per day
-const maxCommitsPerDay = 5; // Maximum commits per day
+const maxCommitsPerDay = 8; // Maximum commits per day
 
 // Run the commit function
 makeCommits(startDate, endDate, minCommitsPerDay, maxCommitsPerDay).then(() => console.log('All commits are done!'));
