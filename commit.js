@@ -1,6 +1,7 @@
 // Import necessary modules
 const moment = require('moment');
 const simpleGit = require('simple-git');
+const randomFloat = Math.random();
 
 // Initialize git
 const git = simpleGit();
@@ -39,6 +40,6 @@ async function makeCommits(startDate, endDate, commitsPerDay = 1) {
 // Define start and end dates and run the commit function
 const startDate = '2023-12-06'; // Change this to your desired start date
 const endDate = '2023-12-15'; // Change this to your desired end date
-const commitsPerDay = 3; // Change this to the number of commits per day
+const commitsPerDay = randomFloat; // Change this to the number of commits per day
 
 makeCommits(startDate, endDate, commitsPerDay).then(() => console.log('All commits are done!'));
