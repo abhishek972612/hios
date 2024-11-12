@@ -37,8 +37,8 @@ async function makeCommits(startDate, endDate, commitsPerDay = 1) {
 }
 
 // Define start and end dates and run the commit function
-const startDate = '2024-01-01'; // Change this to your desired start date
+const startDate = '2024-04-01'; // Change this to your desired start date
 const endDate = '2024-12-31'; // Change this to your desired end date
-const commitsPerDay = 6; // Change this to the number of commits per day
+const commitsPerDay = 3; // Change this to the number of commits per day
 
 makeCommits(startDate, endDate, commitsPerDay).then(() => console.log('All commits are done!'));
